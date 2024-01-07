@@ -9,7 +9,7 @@ from langchain_community.document_loaders import UnstructuredWordDocumentLoader
 import os
 from keys import OPENAI_API_KEY
 
-# ! 实现了RAG 和 memory，但是没有实现UI
+# 本程序实现了RAG 和 memory，但是没有实现UI
 
 # 设置密钥和代理，为了可以访问openAI 的API
 os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY

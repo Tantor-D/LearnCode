@@ -19,6 +19,7 @@ os.environ["https_proxy"] = "http://localhost:7890"
 # 获取到数据
 # loader = WebBaseLoader("https://lilianweng.github.io/posts/2023-06-23-agent/")
 loader = UnstructuredWordDocumentLoader('my_data/18 tourist.docx')
+
 data = loader.load()
 
 # 对数据进行分割
